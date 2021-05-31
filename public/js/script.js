@@ -269,7 +269,7 @@ function updateData(selectedItem) {
                         divWrapper.appendChild(botonEnviar);
                         divWrapper.appendChild(document.createElement("br"));
 
-                        document.body.replaceChild(divWrapper, document.getElementById("divWrapper");
+                        document.body.replaceChild(divWrapper, document.getElementById("divWrapper"));
                         break;
                     }
                 }
