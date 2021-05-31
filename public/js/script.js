@@ -235,10 +235,6 @@ function updateData(selectedItem) {
                             divWrapper.innerHTML = '';
                         }
 
-                        const form = document.createElement("form");
-                        form.setAttribute("id", "formTour");
-                        form.setAttribute("method", "post");
-
                         const botonEnviar = document.createElement("input");
                         botonEnviar.setAttribute("type", "submit");
                         botonEnviar.setAttribute("value", "Enviar");
@@ -261,20 +257,19 @@ function updateData(selectedItem) {
                         inputCantidad.setAttribute("id", "idInputCantidad");
                         inputCantidad.setAttribute("name", "cantidadTours");
 
-                        form.appendChild(labelTipo);
-                        form.appendChild(document.createElement("br"));
-                        form.appendChild(labelPrecio);
-                        form.appendChild(document.createElement("br"));
-                        form.appendChild(labelCantidad);
-                        form.appendChild(document.createElement("br"));
-                        form.appendChild(inputCantidad);
-                        form.appendChild(document.createElement("br"));
-                        form.appendChild(document.createElement("br"));
-                        form.appendChild(botonEnviar);
+                        divWrapper.appendChild(labelTipo);
                         divWrapper.appendChild(document.createElement("br"));
-                        divWrapper.appendChild(form);
+                        divWrapper.appendChild(labelPrecio);
+                        divWrapper.appendChild(document.createElement("br"));
+                        divWrapper.appendChild(labelCantidad);
+                        divWrapper.appendChild(document.createElement("br"));
+                        divWrapper.appendChild(inputCantidad);
+                        divWrapper.appendChild(document.createElement("br"));
+                        divWrapper.appendChild(document.createElement("br"));
+                        divWrapper.appendChild(botonEnviar);
+                        divWrapper.appendChild(document.createElement("br"));
 
-                        document.body.appendChild(divCuerpoTour);
+                        document.body.replaceChild(divWrapper, document.getElementById("divWrapper");
                         break;
                     }
                 }
