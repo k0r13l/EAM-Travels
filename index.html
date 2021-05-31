@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>EAM Travels</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Primer proyecto del curso del lenguajes para aplicaciones comerciales" />
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="public/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="public/css/modal.css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="public/img/icono.ico"/>
+    </head>
+    <script src="public/js/script.js"></script>
+    <script src="public/js/canvas.js"></script>
+    <body onload="cargarBody()">
+        <header>
+            <canvas id="canvas" width="1366" height="150"></canvas>
+            <div id="logo" align="center" class="col-lg-12">
+                <img class="fade" alt="Primer proyecto de lenguajes" src="public/img/logo.png"/>
+            </div>
+            <div id="divNav" align="center" class="col-lg-12">
+                <nav id="navPrincipal">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="TourView.html">Tours</a></li>
+                        <li><a href="ContactView.html">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="menuIz">
+            <div class="row mb-12 col-lg-2">
+                <div id="divIz" class="col-lg-2">
+                </div>
+            </div>
+        </section>
+        <section id="menuDe">
+            <div class="row mb-12 col-lg-3">
+                <div id="divDe" class="col-lg-3">
+                    <div id="rMenu" class="center">
+                        <h5>Info adicional</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contenido">
+            <div class="row mb-12 col-lg-7">
+                <div id="cuerpoCentro" class="col-lg-7" align="center">
+                    <div id="divDinamico" class="col-lg-7" align="center">
+                    </div>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="footerText">
+                <h6>Proyecto de Lenguajes para aplicaciones comerciales, Edwin Acuña Montero B70070</h6>
+            </div>
+        </footer>
+    </body>
+</html>

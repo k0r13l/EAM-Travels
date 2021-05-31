@@ -1,0 +1,22 @@
+{
+    "tours": [
+        {
+            "nombre":"Caminata Bajo Pacuare",
+            "tipo":"Familiar",
+            "capacidad":10,
+            "precio":5000
+        },
+        {
+            "nombre":"Caminata La leona",
+            "tipo":"Familiar",
+            "capacidad":15,
+            "precio":2000
+        },
+        {
+            "nombre":"Caminata La Suiza y alrededores",
+            "tipo":"Descuento",
+            "capacidad":25,
+            "precio":4000
+        }
+    ]
+}

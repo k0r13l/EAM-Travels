@@ -1,0 +1,100 @@
+{
+    "default": [
+        {
+            "img":"cambiarRuta",
+            "description": [
+                "Insertar téxto para una descripción general de la página"
+            ]
+        }
+    ],
+    "flora": [
+        {
+            "nombre": "Guaria Morada",
+            "description": ["La guaria morada o flor de candelaria es una",
+                "especie de orquídea epífita nativa de las selvas húmedas de",
+                "Centroamérica. Se distribuye desde buena parte de los bosques",
+                "húmedos de Chiapas en México hasta registros al oeste de Panamá y Costa Rica."],
+            "img": [
+                {
+                    "alt": "Flor nacional de Costa Rica",
+                    "rutaImagen": "public/img/guariamorada.jpg"
+                },
+                {
+                    "alt": "Flor nacional de Costa Rica",
+                    "rutaImagen": "public/img/guariamorada2.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Pichichio",
+            "description": ["Solanum mammosum, la chichigua, ubre de vaca,",
+                "manzana de Sodoma, pichichio, o es una planta anual perenne",
+                "de la familia Solanaceae y un pariente cercano del tomate. "],
+            "img": [
+                {
+                    "alt": "Arbusto ornamental o medicinal",
+                    "rutaImagen": "public/img/pichichio.jpg"
+                },
+                {
+                    "alt": "Arbusto ornamental o medicinal",
+                    "rutaImagen": "public/img/pichichio3.jpg"
+                }
+            ]
+        }
+    ],
+    "fauna": [
+        {
+            "nombre": "Colibrí",
+            "description": ["El Colibrí es un género de aves apodiformes",
+                "pertenecientes a la subfamilia de los troquilinos.",
+                "El género agrupa a cinco especies con una distribución",
+                "principalmente neotropical."],
+            "img": [
+                {
+                    "alt": "Ave pequeña y tierna",
+                    "rutaImagen": "public/img/colibri.jpg"
+                },
+                {
+                    "alt": "Ave pequeña y tierna",
+                    "rutaImagen": "public/img/colibri1.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Pájaro bobo",
+            "description": ["Esta especie se encuentra en el Valle Central y",
+                "elevaciones intermedias, en el Pacífico sur, central y norte;",
+                "en la parte más seca del noroeste del país se limita a bosques",
+                "de galería. Al igual que la mayoría de los momotos, presentan",
+                "una característica cola en forma de raqueta, que mueven de un",
+                "lado a otro."],
+            "img": [
+                {
+                    "alt": "Pájaro bobo perteneciente a la familia momotidae",
+                    "rutaImagen": "public/img/bobo.jpg"
+                },
+                {
+                    "alt": "Pájaro bobo perteneciente a la familia momotidae",
+                    "rutaImagen": "public/img/bobo1.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Terciopelo",
+            "description": ["La serpiente terciopelo ​ es una especie de serpiente",
+                "crotalina venenosa que se encuentra en América Central y el norte",
+                "de Sudamérica.​ Se halla en un amplio rango de hábitats de tierras",
+                "altas, a menudo cerca de asentamientos humanos."],
+            "img": [
+                {
+                    "alt": "Serpiente crotalina venenosa de América Central",
+                    "rutaImagen": "public/img/terciopelo.jpg"
+                },
+                {
+                    "alt": "Serpiente crotalina venenosa de América Central",
+                    "rutaImagen": "public/img/terciopelo1.jpg"
+                }
+            ]
+        }
+    ]
+}
